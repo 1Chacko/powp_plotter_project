@@ -40,6 +40,6 @@ public class FigurePlotterAdapter implements IPlotter
     @Override
     public String toString()
     {
-        return "Not-Buggy Simulator";
+        return "Figure Plotter";
     }
 }
