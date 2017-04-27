@@ -29,4 +29,5 @@ public class ComplexCommand implements IPlotterCommand
 		
 	}
 	
+	//W hierarchii poleceń występuje wzorzec Composite.
 }
