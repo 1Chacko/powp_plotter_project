@@ -7,9 +7,15 @@ public class CommandSetPosition implements IPlotterCommand
 	private int x;
 	private int y;
 	
+	public CommandSetPosition(int x, int y) {
+		super();
+		this.x = x;
+		this.y = y;
+	}
+	
 	@Override
 	public void execute(IPlotter driver) {
-		driver.setPosition(x, y);
+		driver.setPosition(this.x, this.y);
 		
 	}
 
